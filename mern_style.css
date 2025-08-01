@@ -1,0 +1,79 @@
+/* General page style */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  margin: 30px;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Heading */
+h1 {
+  text-align: center;
+  color: #2c3e50;
+}
+
+/* Paragraph */
+p {
+  max-width: 900px;
+  margin: 20px auto;
+  padding: 10px;
+  background-color: #fff;
+  border-left: 5px solid #4CAF50;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+/* Ordered List */
+ol {
+  width: 300px;
+  margin: 0 auto 30px auto;
+  padding: 10px;
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+}
+
+/* Image */
+.mern-image {
+  display: block;
+  margin: 20px auto;
+  width: 250px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 8px rgba(0,0,0,0.2);
+}
+
+/* External link */
+.external-link {
+  display: block;
+  text-align: center;
+  margin: 15px auto;
+  font-weight: bold;
+  color: #2c3e50;
+  text-decoration: none;
+  font-size: 18px;
+}
+.external-link:hover {
+  color: #4CAF50;
+  text-decoration: underline;
+}
+
+/* Fieldset and legend */
+fieldset {
+  width: 300px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 2px solid #4CAF50;
+  border-radius: 10px;
+  background-color: #fff;
+}
+legend {
+  color: #4CAF50;
+  font-weight: bold;
+}
+input[type="text"], input[type="email"] {
+  width: 95%;
+  padding: 8px;
+  margin-top: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}

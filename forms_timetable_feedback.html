@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Forms, Timetable, Feedback</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="center">
+
+<h1>HTML FORMS</h1>
+<form action="/action_page.php">
+  <label for="fname">Student Name:</label><br>
+  <input type="text" id="fname" name="fname" value="swethak"><br>
+  
+  <label for="lname">Roll Number:</label><br>
+  <input type="text" id="lname" name="lname" value="160123737063"><br><br>
+  
+  <label for="email">Email:</label><br>
+  <input type="text" id="email" name="email" value="swethak@gmail.com"><br>
+  
+  <label for="phone">Phone Number:</label><br>
+  <input type="text" id="phone" name="phone" value="8019194984"><br><br>
+  
+  <input type="radio" id="male" name="gender">
+  <label for="male">Male</label>
+  
+  <input type="radio" id="female" name="gender">
+  <label for="female">Female</label><br><br>
+  
+  <input type="submit" value="Submit">
+</form> 
+
+<h1>TIME TABLE</h1>
+<table>
+  <tr>
+    <th>Period</th>
+    <th>1st hour</th>
+    <th>2nd hour</th>
+    <th>3rd hour</th>
+    <th>4th hour</th>
+    <th>5th hour</th>
+    <th>6th hour</th>
+  </tr>
+  <tr>
+    <td>Monday</td>
+    <td>EAD</td>
+    <td>EAD</td>
+    <td>FLAT</td>
+    <td>EAD</td>
+    <td>EAD</td>
+    <td>FLAT</td>
+  </tr>
+  <tr>
+    <td>Tuesday</td>
+    <td>EAD</td>
+    <td>EAD</td>
+    <td>FLAT</td>
+    <td>EAD</td>
+    <td>EAD</td>
+    <td>FLAT</td>
+  </tr>
+  <tr>
+    <td>Wednesday</td>
+    <td>EAD</td>
+    <td>EAD</td>
+    <td>FLAT</td>
+    <td>EAD</td>
+    <td>EAD</td>
+    <td>FLAT</td>
+  </tr>
+</table>
+
+<h1>FEEDBACK FORM</h1>
+<form action="/action_page.php">
+  <label for="fname">Student Name:</label><br>
+  <input type="text" id="fname" name="fname" value="swethak"><br>
+  
+  <label for="email">Email:</label><br>
+  <input type="text" id="email" name="email" value="swethak@gmail.com"><br>
+  
+  <label for="feedback">Feedback:</label><br>
+  <textarea id="feedback" rows="2" cols="50">Teaching is very good</textarea><br>
+  
+  <p>How satisfied are you:</p>
+  <input type="radio" id="satisfied" name="satisfaction">
+  <label for="satisfied">Satisfied</label><br>
+  
+  <input type="radio" id="neutral" name="satisfaction">
+  <label for="neutral">Neutral</label><br>
+  
+  <input type="radio" id="unsatisfied" name="satisfaction">
+  <label for="unsatisfied">Unsatisfied</label><br>
+</form>  
+
+</body>
+</html>
